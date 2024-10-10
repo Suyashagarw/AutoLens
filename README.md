@@ -23,13 +23,3 @@ The application’s backend relies on a set of AWS services to manage photo uplo
 - **OpenSearch Integration**: Enhances search functionality for easier image retrieval.
 - **CloudWatch Monitoring**: Integrated for monitoring the health and performance of the system.
 
-## Performance Analysis
-
-Performance was evaluated using JMeter by simulating multiple PUT and GET requests to test the application’s ability to handle high traffic.
-
-- **Read Operations**: The application handles read requests efficiently, with stable latency at around 1000ms.
-- **Write Operations**: Write requests (e.g., image uploads) show higher latency (around 3000ms) due to the file size and processing time involved.
-
-## Conclusion
-
-This photo album application provides a highly scalable, reliable, and efficient platform for managing photos using AWS services. The integration of features like AI-based image recognition, Redis caching, and OpenSearch improves both the performance and user experience of the system.
